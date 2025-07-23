@@ -1,0 +1,25 @@
+{
+  "name": "devtinder-backend",
+  "version": "1.0.0",
+  "description": "backend service for dev tinder using nodeJs ExpressJs and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev":"nodemon src/app.js"
+  },
+  "keywords": [
+    "nodeJS",
+    "expressJS",
+    "MongoDB",
+    "Javascript"
+  ],
+  "author": "Ooha Jadya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
